@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BasedFixture">
+    <defName>Thunder_Bucket</defName>
+    <label>simple thunder bucket</label>
+    <description>A simple thunder bucket, don't drink from it. Must be emptied manually.</description>
+    <thingClass>DubsBadHygiene.Building_Latrine</thingClass>
+    <graphicData>
+      <texPath>DBH/Things/Building/cleanBucket</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Cutout</shaderType>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>800</WorkToBuild>
+      <Flammability>2.0</Flammability>
+      <Beauty>-5</Beauty>
+      <Cleanliness>-5</Cleanliness>
+      <Mass>5</Mass>
+    </statBases>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <fillPercent>0.15</fillPercent>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>15</costStuffCount>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <pathCost>8</pathCost>
+    <rotatable>false</rotatable>
+    <defaultStuff>WoodLog</defaultStuff>
+  </ThingDef>
+
+</Defs>

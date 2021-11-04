@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ToiletStuff"]/label</xpath>
+    <value>
+      <label>thunder bucket</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ToiletAdv"]/description</xpath>
+    <value>
+      <description>Comfortable, self cleaning, unblockable, super efficient smart thunder bucket. Provides the optimum multi-functional experience with automatic cleansing and deodorization.\n7L per use</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ToiletAdvStuff"]/label</xpath>
+    <value>
+      <label>smart thunder bucket</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="ToiletPrivacy"]/stages/li/description</xpath>
+    <value>
+      <description>Someone walked in on me while I was using the thunder bucket.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="ModernFixtures"]/description</xpath>
+    <value>
+      <description>Build modern-style bathroom fixtures like thunder buckets and showers.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="AdvancedToilets"]/label</xpath>
+    <value>
+      <label>smart thunder buckets</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="AdvancedToilets"]/description</xpath>
+    <value>
+      <description>Build comfortable, self cleaning, super efficient smart thunder buckets.</description>
+    </value>
+  </Operation>
+
+</Patch>
